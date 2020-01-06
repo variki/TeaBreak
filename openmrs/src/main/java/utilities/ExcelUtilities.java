@@ -72,9 +72,6 @@ public class ExcelUtilities {
 				cell = row.getCell(column_number);
 				switch(cell.getCellType())
 				{
-				case STRING:
-					value = cell.getStringCellValue();
-					break;
 				case NUMERIC:
 					value = String.valueOf(cell.getNumericCellValue());
 					break;
@@ -83,6 +80,9 @@ public class ExcelUtilities {
 					break;
 				case BOOLEAN:
 					value =  String.valueOf(cell.getBooleanCellValue());
+					break;
+				default:
+					value = cell.getStringCellValue();
 					break;
 				}	
 			}catch(Exception e){
