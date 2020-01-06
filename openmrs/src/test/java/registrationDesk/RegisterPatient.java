@@ -1,13 +1,15 @@
 package registrationDesk;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 
 import testBase.TestBase;
 
+@Listeners(cutomListeners.ExtentManagerListeners.class)
 public class RegisterPatient extends TestBase {
 	
-	@Test
+	@Test(description="Verify User is able to register New Patient")
 	public static void registerNewPatient()
 	{
 		
@@ -17,12 +19,12 @@ public class RegisterPatient extends TestBase {
 		Create();
 		Validate();
 		Logout();
-		extent.flush();
+		
 		
 	}
 	
-	@Test
-	public static void registerNewPatient1()
+	@Test(description="Verify User is able to Search Patient")
+	public static void SearchPatient()
 	{
 		
 		login();
@@ -30,8 +32,7 @@ public class RegisterPatient extends TestBase {
 		Create();
 		Validate();
 		Logout();
-		pNode.fail("Logout");
-		extent.flush();
+		
 	
 	}
 	
@@ -41,14 +42,14 @@ public class RegisterPatient extends TestBase {
 	pNode.log(Status.PASS,"Enter UserName: ");
 	pNode.log(Status.PASS,"Enter Password: ");
 	pNode.log(Status.PASS,"Click");
-	extent.flush();
+	
 	}
 	public static void Navigate()
 	{
 	pNode.info("Enter UserName: ");
 	pNode.info("Enter Password: ");
 	pNode.info("Click");
-	extent.flush();
+
 	}
 	public static void Create()
 	{
@@ -56,7 +57,7 @@ public class RegisterPatient extends TestBase {
 	pNode.info("Enter UserName: ");
 	pNode.info("Enter Password: ");
 	pNode.info("Click");
-	extent.flush();
+
 	}
 	public static void Logout()
 	{
@@ -64,7 +65,7 @@ public class RegisterPatient extends TestBase {
 	pNode.info("Enter UserName: ");
 	pNode.info("Enter Password: ");
 	pNode.info("Click");
-	extent.flush();
+	
 	}
 	public static void Validate()
 	{
@@ -73,14 +74,14 @@ public class RegisterPatient extends TestBase {
 	enter();
 	pNode.log(Status.PASS,"Enter Password: ");
 	pNode.log(Status.PASS,"Click");
-	extent.flush();
+
 	}
 	
 	public static void enter()
 	{
 
 		pNode.log(Status.PASS,"Entered Successfully");
-		extent.flush();
+		
 	}
 
 }

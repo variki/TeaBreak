@@ -10,6 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -39,22 +40,18 @@ public class TestBase {
 		extent = ExtentManager.getIntance();
 
 	}
-
-	@BeforeClass
-	public void beforeClass() {
+	
+	@BeforeTest
+	public void beforeTest()
+	{
 		// Initialize Driver
-		DriverFactory instanceDriver = DriverFactory.getInstance();
-		driver = instanceDriver.browserSetup(ConfigurationSetup.browser);
-	}
-
-	@AfterClass
-	public void afterClass() {
-		driver.quit();
+				DriverFactory instanceDriver = DriverFactory.getInstance();
+				driver = instanceDriver.browserSetup(ConfigurationSetup.browser);
 	}
 
 	@AfterTest
 	public void afterTest() {
-		
+		driver.quit();
 	}
 	
 	@AfterSuite

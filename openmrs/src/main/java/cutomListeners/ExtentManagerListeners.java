@@ -24,7 +24,7 @@ public class ExtentManagerListeners extends TestBase implements ITestListener {
 	}
 
 	public void onTestStart(ITestResult result) {
-		pNode = extent.createTest(result.getTestClass().getName() + " | " + result.getMethod().getMethodName());
+		pNode = extent.createTest(result.getTestClass().getName().toUpperCase() + " | " + result.getMethod().getMethodName().toLowerCase(),result.getMethod().getDescription());
 		testReports.set(pNode);
 	}
 
