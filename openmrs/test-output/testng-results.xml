@@ -2,39 +2,39 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32029" started-at="2020-01-06T23:50:46 IST" finished-at="2020-01-06T23:51:18 IST">
+  <suite name="Default suite" duration-ms="28016" started-at="2020-01-07T11:55:16 IST" finished-at="2020-01-07T11:55:44 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32029" started-at="2020-01-06T23:50:46 IST" finished-at="2020-01-06T23:51:18 IST">
+    <test name="Default test" duration-ms="28016" started-at="2020-01-07T11:55:16 IST" finished-at="2020-01-07T11:55:44 IST">
       <class name="registrationDesk.RegisterPatient">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:registrationDesk.RegisterPatient@60285225]" name="beforeSuite" is-config="true" duration-ms="909" started-at="2020-01-06T23:50:45 IST" finished-at="2020-01-06T23:50:46 IST">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f]" name="beforeSuite" is-config="true" duration-ms="859" started-at="2020-01-07T11:55:15 IST" finished-at="2020-01-07T11:55:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:registrationDesk.RegisterPatient@60285225]" name="beforeTest" is-config="true" duration-ms="17032" started-at="2020-01-06T23:50:46 IST" finished-at="2020-01-06T23:51:03 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f]" name="beforeMethod" is-config="true" duration-ms="7690" started-at="2020-01-07T11:55:16 IST" finished-at="2020-01-07T11:55:24 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="SearchPatient()[pri:0, instance:registrationDesk.RegisterPatient@60285225]" name="SearchPatient" duration-ms="3586" started-at="2020-01-06T23:51:03 IST" description="Verify User is able to Search Patient" finished-at="2020-01-06T23:51:06 IST">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SearchPatient()[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f]" name="SearchPatient" duration-ms="8165" started-at="2020-01-07T11:55:24 IST" description="Verify User is able to Search Patient" finished-at="2020-01-07T11:55:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchPatient -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:registrationDesk.RegisterPatient@60285225]" name="afterTest" is-config="true" duration-ms="926" started-at="2020-01-06T23:51:07 IST" finished-at="2020-01-06T23:51:07 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f]" name="afterMethod" is-config="true" duration-ms="766" started-at="2020-01-07T11:55:32 IST" finished-at="2020-01-07T11:55:32 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:registrationDesk.RegisterPatient@60285225]" name="beforeTest" is-config="true" duration-ms="7911" started-at="2020-01-06T23:51:07 IST" finished-at="2020-01-06T23:51:15 IST">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f]" name="beforeMethod" is-config="true" duration-ms="4045" started-at="2020-01-07T11:55:32 IST" finished-at="2020-01-07T11:55:36 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="registerNewPatient()[pri:0, instance:registrationDesk.RegisterPatient@60285225]" name="registerNewPatient" duration-ms="1789" started-at="2020-01-06T23:51:15 IST" description="Verify User is able to register New Patient" finished-at="2020-01-06T23:51:17 IST">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="registerNewPatient()[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f]" name="registerNewPatient" duration-ms="6287" started-at="2020-01-07T11:55:36 IST" description="Verify User is able to register New Patient" finished-at="2020-01-07T11:55:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerNewPatient -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:registrationDesk.RegisterPatient@60285225]" name="afterTest" is-config="true" duration-ms="632" started-at="2020-01-06T23:51:17 IST" finished-at="2020-01-06T23:51:18 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f]" name="afterMethod" is-config="true" duration-ms="1020" started-at="2020-01-07T11:55:43 IST" finished-at="2020-01-07T11:55:44 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
+        </test-method> <!-- afterMethod -->
       </class> <!-- registrationDesk.RegisterPatient -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

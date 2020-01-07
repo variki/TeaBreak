@@ -8,18 +8,16 @@ import testBase.TestBase;
 
 public class pInteractElement extends TestBase {
 
-	public static void interactElementBy(By by,String value)
+	public static void interactElementByType(By by,String value)
 	{
-		log.info("Interacting the Element with data : " + value);
-		pNode.log(Status.INFO,"Entering the data : " + value);
+		
 		driver.findElement(by).sendKeys(value);
 		
 	}
 	
-	public static void interactElementBy(By by,boolean b)
+	public static void interactElementByclick(By by,boolean b)
 	{
-		log.info("Interacting the Element");
-		pNode.log(Status.INFO,"Interacting the Element");
+		
 		driver.findElement(by).click();
 		
 	}

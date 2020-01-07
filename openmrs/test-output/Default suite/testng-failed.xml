@@ -6,9 +6,10 @@
       <class name="registrationDesk.RegisterPatient">
         <methods>
           <include name="registerNewPatient"/>
-          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="SearchPatient"/>
           <include name="beforeSuite"/>
-          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
         </methods>
       </class> <!-- registrationDesk.RegisterPatient -->
     </classes>
