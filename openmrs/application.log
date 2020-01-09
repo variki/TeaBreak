@@ -184,3 +184,118 @@
 2020-01-07 11:55:41,244  INFO [main] TestBase:95 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (478454d006f0c81fd7bca52e861507aa)] -> id: Registration Desk]'
 2020-01-07 11:55:41,272  INFO [main] TestBase:89 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (478454d006f0c81fd7bca52e861507aa)] -> id: loginButton]'
 2020-01-07 11:55:43,283  INFO [main] TestBase:95 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (478454d006f0c81fd7bca52e861507aa)] -> id: loginButton]'
+2020-01-09 10:12:38,717  INFO [main] TestBase:36 - Host Name : Local Driven
+2020-01-09 10:12:38,729  INFO [main] TestBase:37 - Operating System : WINDOWS 7
+2020-01-09 10:12:38,729  INFO [main] TestBase:38 - Browser :CHROME
+2020-01-09 10:12:56,909  INFO [main] TestBase:38 - Navigating to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 10:13:00,294  INFO [main] TestBase:44 - Successfully Navigate to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 10:13:00,363  INFO [main] TestBase:102 - Value of the : '[[ChromeDriver: chrome on WINDOWS (d4401396e93182bc4cc3cc3fd781a695)] -> id: username]' before any changes made
+2020-01-09 10:13:00,547  INFO [main] TestBase:110 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (d4401396e93182bc4cc3cc3fd781a695)] -> id: username]'
+2020-01-09 10:13:01,171  INFO [main] TestBase:102 - Value of the : '[[ChromeDriver: chrome on WINDOWS (d4401396e93182bc4cc3cc3fd781a695)] -> id: password]' before any changes made
+2020-01-09 10:13:01,276  INFO [main] TestBase:110 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (d4401396e93182bc4cc3cc3fd781a695)] -> id: password]'
+2020-01-09 10:13:01,619  INFO [main] TestBase:90 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (d4401396e93182bc4cc3cc3fd781a695)] -> id: Registration Desk]'
+2020-01-09 10:13:01,701  INFO [main] TestBase:96 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (d4401396e93182bc4cc3cc3fd781a695)] -> id: Registration Desk]'
+2020-01-09 10:13:02,233  INFO [main] TestBase:90 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (d4401396e93182bc4cc3cc3fd781a695)] -> id: loginButton]'
+2020-01-09 10:13:04,571  INFO [main] TestBase:96 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (d4401396e93182bc4cc3cc3fd781a695)] -> id: loginButton]'
+2020-01-09 10:13:10,964  INFO [main] TestBase:38 - Navigating to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 10:13:16,985  INFO [main] TestBase:44 - Successfully Navigate to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 10:13:17,026  INFO [main] TestBase:102 - Value of the : '[[ChromeDriver: chrome on WINDOWS (39995452d74e228c829953441224854e)] -> id: username]' before any changes made
+2020-01-09 10:13:17,060  INFO [main] TestBase:110 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (39995452d74e228c829953441224854e)] -> id: username]'
+2020-01-09 10:13:17,401  INFO [main] TestBase:102 - Value of the : '[[ChromeDriver: chrome on WINDOWS (39995452d74e228c829953441224854e)] -> id: password]' before any changes made
+2020-01-09 10:13:17,478  INFO [main] TestBase:110 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (39995452d74e228c829953441224854e)] -> id: password]'
+2020-01-09 10:13:17,802  INFO [main] TestBase:90 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (39995452d74e228c829953441224854e)] -> id: Registration Desk]'
+2020-01-09 10:13:17,874  INFO [main] TestBase:96 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (39995452d74e228c829953441224854e)] -> id: Registration Desk]'
+2020-01-09 10:13:18,215  INFO [main] TestBase:90 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (39995452d74e228c829953441224854e)] -> id: loginButton]'
+2020-01-09 10:13:20,049  INFO [main] TestBase:96 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (39995452d74e228c829953441224854e)] -> id: loginButton]'
+2020-01-09 10:54:03,362  INFO [main] TestBase:40 - Host Name : Local Driven
+2020-01-09 10:54:03,374  INFO [main] TestBase:41 - Operating System : WINDOWS 7
+2020-01-09 10:54:03,374  INFO [main] TestBase:42 - Browser :CHROME
+2020-01-09 10:54:39,789  INFO [main] TestBase:38 - Navigating to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 10:54:48,822  INFO [main] TestBase:44 - Successfully Navigate to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 10:54:49,337  INFO [main] TestBase:102 - Value of the : '[[ChromeDriver: chrome on WINDOWS (f5204d6824dd6b9b1018fe3bf30b2da3)] -> id: username]' before any changes made
+2020-01-09 10:54:50,624  INFO [main] TestBase:110 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (f5204d6824dd6b9b1018fe3bf30b2da3)] -> id: username]'
+2020-01-09 10:54:52,012  INFO [main] TestBase:102 - Value of the : '[[ChromeDriver: chrome on WINDOWS (f5204d6824dd6b9b1018fe3bf30b2da3)] -> id: password]' before any changes made
+2020-01-09 10:54:52,305  INFO [main] TestBase:110 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (f5204d6824dd6b9b1018fe3bf30b2da3)] -> id: password]'
+2020-01-09 10:54:52,809  INFO [main] TestBase:90 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (f5204d6824dd6b9b1018fe3bf30b2da3)] -> id: Registration Desk]'
+2020-01-09 10:54:53,312  INFO [main] TestBase:96 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (f5204d6824dd6b9b1018fe3bf30b2da3)] -> id: Registration Desk]'
+2020-01-09 10:54:53,786  INFO [main] TestBase:90 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (f5204d6824dd6b9b1018fe3bf30b2da3)] -> id: loginButton]'
+2020-01-09 10:54:56,652  INFO [main] TestBase:96 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (f5204d6824dd6b9b1018fe3bf30b2da3)] -> id: loginButton]'
+2020-01-09 10:55:06,174  INFO [main] TestBase:38 - Navigating to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 10:55:09,369  INFO [main] TestBase:44 - Successfully Navigate to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 10:55:09,402  INFO [main] TestBase:102 - Value of the : '[[ChromeDriver: chrome on WINDOWS (70a6da96339149b0b1e96524021955e1)] -> id: username]' before any changes made
+2020-01-09 10:55:09,436  INFO [main] TestBase:110 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (70a6da96339149b0b1e96524021955e1)] -> id: username]'
+2020-01-09 10:55:09,871  INFO [main] TestBase:102 - Value of the : '[[ChromeDriver: chrome on WINDOWS (70a6da96339149b0b1e96524021955e1)] -> id: password]' before any changes made
+2020-01-09 10:55:09,954  INFO [main] TestBase:110 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (70a6da96339149b0b1e96524021955e1)] -> id: password]'
+2020-01-09 10:55:10,348  INFO [main] TestBase:90 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (70a6da96339149b0b1e96524021955e1)] -> id: Registration Desk]'
+2020-01-09 10:55:10,404  INFO [main] TestBase:96 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (70a6da96339149b0b1e96524021955e1)] -> id: Registration Desk]'
+2020-01-09 10:55:10,795  INFO [main] TestBase:90 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (70a6da96339149b0b1e96524021955e1)] -> id: loginButton]'
+2020-01-09 10:55:12,569  INFO [main] TestBase:96 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (70a6da96339149b0b1e96524021955e1)] -> id: loginButton]'
+2020-01-09 11:47:23,694  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-09 11:47:23,708  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-09 11:47:23,708  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-09 11:50:09,711  INFO [main] TestBase:41 - Navigating to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 11:50:14,040  INFO [main] TestBase:47 - Successfully Navigate to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 11:50:14,312  INFO [main] TestBase:110 - Value of the : '[[ChromeDriver: chrome on WINDOWS (d5b7329e1b4ad2aa4a3b5555ec5cd505)] -> id: username]' before any changes made
+2020-01-09 11:50:14,629  INFO [main] TestBase:120 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (d5b7329e1b4ad2aa4a3b5555ec5cd505)] -> id: username]'
+2020-01-09 11:50:15,189  INFO [main] TestBase:110 - Value of the : '[[ChromeDriver: chrome on WINDOWS (d5b7329e1b4ad2aa4a3b5555ec5cd505)] -> id: password]' before any changes made
+2020-01-09 11:50:15,362  INFO [main] TestBase:120 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (d5b7329e1b4ad2aa4a3b5555ec5cd505)] -> id: password]'
+2020-01-09 11:50:15,785  INFO [main] TestBase:94 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (d5b7329e1b4ad2aa4a3b5555ec5cd505)] -> id: Registration Desk]'
+2020-01-09 11:50:16,670  INFO [main] TestBase:104 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (d5b7329e1b4ad2aa4a3b5555ec5cd505)] -> id: Registration Desk]'
+2020-01-09 11:50:16,720  INFO [main] TestBase:94 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (d5b7329e1b4ad2aa4a3b5555ec5cd505)] -> id: loginButton]'
+2020-01-09 11:50:18,716  INFO [main] TestBase:104 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (d5b7329e1b4ad2aa4a3b5555ec5cd505)] -> id: loginButton]'
+2020-01-09 11:50:39,502  INFO [main] TestBase:41 - Navigating to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 11:50:44,579  INFO [main] TestBase:47 - Successfully Navigate to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 11:50:44,737  INFO [main] TestBase:110 - Value of the : '[[ChromeDriver: chrome on WINDOWS (9e37ae562f79896cbd96512c3520b96f)] -> id: username]' before any changes made
+2020-01-09 11:50:44,959  INFO [main] TestBase:120 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (9e37ae562f79896cbd96512c3520b96f)] -> id: username]'
+2020-01-09 11:50:45,460  INFO [main] TestBase:110 - Value of the : '[[ChromeDriver: chrome on WINDOWS (9e37ae562f79896cbd96512c3520b96f)] -> id: password]' before any changes made
+2020-01-09 11:50:45,850  INFO [main] TestBase:120 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (9e37ae562f79896cbd96512c3520b96f)] -> id: password]'
+2020-01-09 11:50:46,265  INFO [main] TestBase:94 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (9e37ae562f79896cbd96512c3520b96f)] -> id: Registration Desk]'
+2020-01-09 11:50:46,801  INFO [main] TestBase:104 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (9e37ae562f79896cbd96512c3520b96f)] -> id: Registration Desk]'
+2020-01-09 11:50:46,850  INFO [main] TestBase:94 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (9e37ae562f79896cbd96512c3520b96f)] -> id: loginButton]'
+2020-01-09 11:50:48,926  INFO [main] TestBase:104 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (9e37ae562f79896cbd96512c3520b96f)] -> id: loginButton]'
+2020-01-09 12:07:53,045  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-09 12:07:53,065  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-09 12:07:53,066  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-09 12:08:21,954  INFO [main] TestBase:41 - Navigating to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 12:08:29,549  INFO [main] TestBase:47 - Successfully Navigate to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 12:08:29,759  INFO [main] TestBase:112 - Value of the : '[[ChromeDriver: chrome on WINDOWS (e53ba5197553d810724cccf04f17e3b2)] -> id: username]' before any changes made
+2020-01-09 12:08:30,122  INFO [main] TestBase:122 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (e53ba5197553d810724cccf04f17e3b2)] -> id: username]'
+2020-01-09 12:08:30,847  INFO [main] TestBase:112 - Value of the : '[[ChromeDriver: chrome on WINDOWS (e53ba5197553d810724cccf04f17e3b2)] -> id: password]' before any changes made
+2020-01-09 12:08:31,075  INFO [main] TestBase:122 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (e53ba5197553d810724cccf04f17e3b2)] -> id: password]'
+2020-01-09 12:08:31,495  INFO [main] TestBase:94 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (e53ba5197553d810724cccf04f17e3b2)] -> id: Registration Desk]'
+2020-01-09 12:08:32,087  INFO [main] TestBase:104 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (e53ba5197553d810724cccf04f17e3b2)] -> id: Registration Desk]'
+2020-01-09 12:08:32,149  INFO [main] TestBase:94 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (e53ba5197553d810724cccf04f17e3b2)] -> id: loginButton]'
+2020-01-09 12:08:35,076  INFO [main] TestBase:104 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (e53ba5197553d810724cccf04f17e3b2)] -> id: loginButton]'
+2020-01-09 12:08:41,642  INFO [main] TestBase:41 - Navigating to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 12:08:45,020  INFO [main] TestBase:47 - Successfully Navigate to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 12:08:45,059  INFO [main] TestBase:112 - Value of the : '[[ChromeDriver: chrome on WINDOWS (c60a7a67cb7ea6aefd08f14741036393)] -> id: username]' before any changes made
+2020-01-09 12:08:45,128  INFO [main] TestBase:122 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (c60a7a67cb7ea6aefd08f14741036393)] -> id: username]'
+2020-01-09 12:08:45,597  INFO [main] TestBase:112 - Value of the : '[[ChromeDriver: chrome on WINDOWS (c60a7a67cb7ea6aefd08f14741036393)] -> id: password]' before any changes made
+2020-01-09 12:08:45,697  INFO [main] TestBase:122 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (c60a7a67cb7ea6aefd08f14741036393)] -> id: password]'
+2020-01-09 12:08:46,090  INFO [main] TestBase:94 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (c60a7a67cb7ea6aefd08f14741036393)] -> id: Registration Desk]'
+2020-01-09 12:08:46,528  INFO [main] TestBase:104 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (c60a7a67cb7ea6aefd08f14741036393)] -> id: Registration Desk]'
+2020-01-09 12:08:46,588  INFO [main] TestBase:94 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (c60a7a67cb7ea6aefd08f14741036393)] -> id: loginButton]'
+2020-01-09 12:08:48,391  INFO [main] TestBase:104 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (c60a7a67cb7ea6aefd08f14741036393)] -> id: loginButton]'
+2020-01-09 12:45:13,287  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-09 12:45:13,309  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-09 12:45:13,309  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-09 12:46:17,935  INFO [main] TestBase:44 - Navigating to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 12:46:32,264  INFO [main] TestBase:50 - Successfully Navigate to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 12:46:33,678  INFO [main] TestBase:115 - Value of the : '[[ChromeDriver: chrome on WINDOWS (0fdc71be990061efde85bec5f158649f)] -> id: username]' before any changes made
+2020-01-09 12:46:40,248  INFO [main] TestBase:125 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (0fdc71be990061efde85bec5f158649f)] -> id: username]'
+2020-01-09 12:46:43,658  INFO [main] TestBase:115 - Value of the : '[[ChromeDriver: chrome on WINDOWS (0fdc71be990061efde85bec5f158649f)] -> id: password]' before any changes made
+2020-01-09 12:46:44,663  INFO [main] TestBase:125 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (0fdc71be990061efde85bec5f158649f)] -> id: password]'
+2020-01-09 12:46:45,383  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (0fdc71be990061efde85bec5f158649f)] -> id: Registration Desk]'
+2020-01-09 12:46:47,651  INFO [main] TestBase:107 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (0fdc71be990061efde85bec5f158649f)] -> id: Registration Desk]'
+2020-01-09 12:46:47,722  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (0fdc71be990061efde85bec5f158649f)] -> id: loginButton]'
+2020-01-09 12:46:52,690  INFO [main] TestBase:107 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (0fdc71be990061efde85bec5f158649f)] -> id: loginButton]'
+2020-01-09 12:47:10,243  INFO [main] TestBase:44 - Navigating to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 12:47:14,549  INFO [main] TestBase:50 - Successfully Navigate to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-09 12:47:14,613  INFO [main] TestBase:115 - Value of the : '[[ChromeDriver: chrome on WINDOWS (23e24f289b20002450f018d6bf1f7b66)] -> id: username]' before any changes made
+2020-01-09 12:47:14,693  INFO [main] TestBase:125 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (23e24f289b20002450f018d6bf1f7b66)] -> id: username]'
+2020-01-09 12:47:15,187  INFO [main] TestBase:115 - Value of the : '[[ChromeDriver: chrome on WINDOWS (23e24f289b20002450f018d6bf1f7b66)] -> id: password]' before any changes made
+2020-01-09 12:47:15,305  INFO [main] TestBase:125 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (23e24f289b20002450f018d6bf1f7b66)] -> id: password]'
+2020-01-09 12:47:15,775  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (23e24f289b20002450f018d6bf1f7b66)] -> id: Registration Desk]'
+2020-01-09 12:47:16,343  INFO [main] TestBase:107 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (23e24f289b20002450f018d6bf1f7b66)] -> id: Registration Desk]'
+2020-01-09 12:47:16,412  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (23e24f289b20002450f018d6bf1f7b66)] -> id: loginButton]'
+2020-01-09 12:47:18,626  INFO [main] TestBase:107 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (23e24f289b20002450f018d6bf1f7b66)] -> id: loginButton]'

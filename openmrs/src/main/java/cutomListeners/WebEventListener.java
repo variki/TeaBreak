@@ -1,13 +1,20 @@
 package cutomListeners;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.MediaEntityModelProvider;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.model.ScreenCapture;
 
+import common.pHelper;
+import common.pTakeScreenshot;
 import common.pWait;
 import testBase.TestBase;
 
@@ -86,14 +93,22 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 	}
 
 	public void beforeClickOn(WebElement element, WebDriver driver) {
+		pHelper.highlightElement(element);
 		log.info("Trying to click on : '"+element.toString()+"'");
-		pNode.log(Status.INFO,"Trying to click on : '"+element.toString()+"'");
-		
+		try {
+			pNode.log(Status.INFO,"Trying to click on : '"+element.toString()+"'",MediaEntityBuilder.createScreenCaptureFromPath(pTakeScreenshot.takesScreenshotAsFull()).build());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	public void afterClickOn(WebElement element, WebDriver driver) {
 		log.info("Clicked on: '" + element.toString()+"'");
 		pNode.log(Status.INFO,"Clicked on: '" + element.toString()+"'");
+		pHelper.unhighlightElement(element);
+		
+		
 	}
 
 	public void beforeChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
@@ -101,12 +116,24 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		+ "' before any changes made");
 		pNode.log(Status.INFO,"Value of the : '" + element.toString()
 		+ "' before any changes made");
+		pHelper.highlightElement(element);
 		
 	}
 
 	public void afterChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
+		
 		log.info("Element value changed to: '" + element.toString()+"'");
-		pNode.log(Status.INFO,"Element value changed to: '" + element.toString()+"'");
+		pHelper.unhighlightElement(element);
+		try {
+			
+			pNode.log(Status.INFO,"Element value changed to: '" + element.toString()+"'",MediaEntityBuilder.createScreenCaptureFromPath(pTakeScreenshot.takesScreenshotAsFull()).build());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
 	}
 
 	public void beforeScript(String script, WebDriver driver) {

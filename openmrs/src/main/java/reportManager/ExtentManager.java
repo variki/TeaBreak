@@ -1,16 +1,9 @@
 package reportManager;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import com.aventstack.extentreports.AnalysisStrategy;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.aventstack.extentreports.reporter.ExtentLoggerReporter;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-
-
 import configuration.ConfigurationSetup;
 
 public class ExtentManager {
