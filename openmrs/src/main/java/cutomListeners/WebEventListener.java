@@ -106,8 +106,6 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 	public void afterClickOn(WebElement element, WebDriver driver) {
 		log.info("Clicked on: '" + element.toString()+"'");
 		pNode.log(Status.INFO,"Clicked on: '" + element.toString()+"'");
-		pHelper.unhighlightElement(element);
-		
 		
 	}
 
@@ -123,7 +121,6 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 	public void afterChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
 		
 		log.info("Element value changed to: '" + element.toString()+"'");
-		pHelper.unhighlightElement(element);
 		try {
 			
 			pNode.log(Status.INFO,"Element value changed to: '" + element.toString()+"'",MediaEntityBuilder.createScreenCaptureFromPath(pTakeScreenshot.takesScreenshotAsFull()).build());

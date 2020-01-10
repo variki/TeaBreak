@@ -60,7 +60,7 @@ public class ExcelUtilities {
 	public String getCelldata(String sheetName,String columnName, int rowNum) {
 		String value="";
 		try {			
-				if(rowNum <=0)
+				if(rowNum < 0)
 				{
 					return "";
 				}
@@ -96,14 +96,23 @@ public class ExcelUtilities {
 		public String getCelldata(String sheetName,int columnNum, int rowNum) {
 			String value="";
 			try {			
-					if(rowNum <=0)
+					if(rowNum < 0)
 					{
-						return "";
+						return null;
 					}
 					int index = isSheetExists(sheetName);
 					sheet = workbook.getSheetAt(index);
 					row = sheet.getRow(rowNum);
+					if(row==null)
+					{
+						return "";
+					}
+				
 					cell = row.getCell(columnNum);
+					if(cell == null)
+					{
+						return "";
+					}
 					switch(cell.getCellType())
 					{
 					case STRING:
@@ -146,11 +155,6 @@ public class ExcelUtilities {
 
 		}
 		return column_Number;
-	}
-
-	public static void main(String argp[]) {
-		 ExcelUtilities excel = new ExcelUtilities(System.getProperty("user.dir")+"\\src\\test\\resources\\passData\\PassData_Configuration.xlsx");
-		 
 	}
 
 }

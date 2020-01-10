@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="registrationDesk.RegisterPatient">
+      <class name="utilities.DataParameter">
         <methods>
-          <include name="registerNewPatient"/>
-          <include name="afterMethod"/>
-          <include name="SearchPatient"/>
-          <include name="beforeSuite"/>
-          <include name="beforeMethod"/>
+          <include name="testData" invocation-numbers="2"/>
         </methods>
-      </class> <!-- registrationDesk.RegisterPatient -->
+      </class> <!-- utilities.DataParameter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
