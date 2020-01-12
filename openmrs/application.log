@@ -299,3 +299,156 @@
 2020-01-09 12:47:16,343  INFO [main] TestBase:107 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (23e24f289b20002450f018d6bf1f7b66)] -> id: Registration Desk]'
 2020-01-09 12:47:16,412  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (23e24f289b20002450f018d6bf1f7b66)] -> id: loginButton]'
 2020-01-09 12:47:18,626  INFO [main] TestBase:107 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (23e24f289b20002450f018d6bf1f7b66)] -> id: loginButton]'
+2020-01-11 17:58:00,823  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 17:58:00,831  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 17:58:00,831  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 17:58:46,616  INFO [main] TestBase:44 - Navigating to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-11 17:58:49,800  INFO [main] TestBase:50 - Successfully Navigate to : 'https://demo.openmrs.org/openmrs/login.htm'
+2020-01-11 16:44:32,290  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 16:44:32,299  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 16:44:32,299  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 16:44:50,747  INFO [main] TestBase:44 - Navigating to : ''
+2020-01-11 16:44:59,061  INFO [main] TestBase:44 - Navigating to : ''
+2020-01-11 16:48:20,114  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 16:48:20,117  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 16:48:20,117  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 16:48:32,264  INFO [main] TestBase:44 - Navigating to : ''
+2020-01-11 16:48:42,081  INFO [main] TestBase:44 - Navigating to : ''
+2020-01-11 16:57:14,936  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 16:57:14,958  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 16:57:14,958  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 16:57:43,392  INFO [main] TestBase:44 - Navigating to : ''
+2020-01-11 16:57:50,733  INFO [main] TestBase:44 - Navigating to : ''
+2020-01-11 17:01:46,097  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 17:01:46,100  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 17:01:46,100  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 17:01:52,673  INFO [main] TestBase:44 - Navigating to : ''
+2020-01-11 17:01:57,851  INFO [main] TestBase:44 - Navigating to : ''
+2020-01-11 17:06:38,902  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 17:06:38,905  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 17:06:38,905  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 17:06:44,760  INFO [main] TestBase:44 - Navigating to : ''
+2020-01-11 17:06:50,149  INFO [main] TestBase:44 - Navigating to : ''
+2020-01-11 17:25:26,034  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 17:25:27,747  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 17:25:29,232  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 17:26:17,165  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 17:26:28,855  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 17:26:29,134  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (b9585ac4163fc0c8aaa073425cea5fc9)] -> name: uid]' before any changes made
+2020-01-11 17:26:35,715  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (b9585ac4163fc0c8aaa073425cea5fc9)] -> name: uid]'
+2020-01-11 17:26:45,919  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (b9585ac4163fc0c8aaa073425cea5fc9)] -> name: password]' before any changes made
+2020-01-11 17:26:46,190  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (b9585ac4163fc0c8aaa073425cea5fc9)] -> name: password]'
+2020-01-11 17:26:48,359  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (b9585ac4163fc0c8aaa073425cea5fc9)] -> name: btnLogin]'
+2020-01-11 17:26:51,770  INFO [main] TestBase:108 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (b9585ac4163fc0c8aaa073425cea5fc9)] -> name: btnLogin]'
+2020-01-11 17:27:12,117  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 17:27:15,386  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 17:27:15,424  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (b47dbd366f28cf1a66acaa30fa925ba7)] -> name: uid]' before any changes made
+2020-01-11 17:27:15,568  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (b47dbd366f28cf1a66acaa30fa925ba7)] -> name: uid]'
+2020-01-11 17:27:16,111  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (b47dbd366f28cf1a66acaa30fa925ba7)] -> name: password]' before any changes made
+2020-01-11 17:27:16,285  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (b47dbd366f28cf1a66acaa30fa925ba7)] -> name: password]'
+2020-01-11 17:27:16,728  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (b47dbd366f28cf1a66acaa30fa925ba7)] -> name: btnLogin]'
+2020-01-11 17:27:18,905  INFO [main] TestBase:108 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (b47dbd366f28cf1a66acaa30fa925ba7)] -> name: btnLogin]'
+2020-01-11 18:52:49,615  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 18:52:49,647  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 18:52:49,647  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 18:53:34,773  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 18:53:42,242  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 18:53:42,854  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (5853794038f87b2bb303a1c4008f81ae)] -> name: uid]' before any changes made
+2020-01-11 18:53:52,981  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (5853794038f87b2bb303a1c4008f81ae)] -> name: uid]'
+2020-01-11 18:54:01,606  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (5853794038f87b2bb303a1c4008f81ae)] -> name: password]' before any changes made
+2020-01-11 18:54:01,796  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (5853794038f87b2bb303a1c4008f81ae)] -> name: password]'
+2020-01-11 18:54:02,210  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (5853794038f87b2bb303a1c4008f81ae)] -> name: btnLogin]'
+2020-01-11 18:54:08,388  INFO [main] TestBase:108 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (5853794038f87b2bb303a1c4008f81ae)] -> name: btnLogin]'
+2020-01-11 18:54:18,957  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 18:54:21,997  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 18:54:22,030  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (24d011f81a40d4ce4bb3e11c41a19cf9)] -> name: uid]' before any changes made
+2020-01-11 18:54:22,169  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (24d011f81a40d4ce4bb3e11c41a19cf9)] -> name: uid]'
+2020-01-11 18:54:22,574  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (24d011f81a40d4ce4bb3e11c41a19cf9)] -> name: password]' before any changes made
+2020-01-11 18:54:22,683  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (24d011f81a40d4ce4bb3e11c41a19cf9)] -> name: password]'
+2020-01-11 18:54:23,076  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (24d011f81a40d4ce4bb3e11c41a19cf9)] -> name: btnLogin]'
+2020-01-11 18:54:24,944  INFO [main] TestBase:108 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (24d011f81a40d4ce4bb3e11c41a19cf9)] -> name: btnLogin]'
+2020-01-11 19:06:07,971  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 19:06:07,974  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 19:06:07,974  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 19:06:19,851  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:06:24,014  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:06:24,228  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (863e364c2c6bb0975635a7bd0b9d3bf2)] -> name: uid]' before any changes made
+2020-01-11 19:06:24,727  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (863e364c2c6bb0975635a7bd0b9d3bf2)] -> name: uid]'
+2020-01-11 19:06:26,757  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (863e364c2c6bb0975635a7bd0b9d3bf2)] -> name: password]' before any changes made
+2020-01-11 19:06:28,621  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (863e364c2c6bb0975635a7bd0b9d3bf2)] -> name: password]'
+2020-01-11 19:06:34,017  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (863e364c2c6bb0975635a7bd0b9d3bf2)] -> name: btnLogin]'
+2020-01-11 19:06:37,634  INFO [main] TestBase:108 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (863e364c2c6bb0975635a7bd0b9d3bf2)] -> name: btnLogin]'
+2020-01-11 19:06:45,492  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:06:50,650  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:06:50,680  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (01993c87df7025ebfd191995a1a5242e)] -> name: uid]' before any changes made
+2020-01-11 19:06:50,834  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (01993c87df7025ebfd191995a1a5242e)] -> name: uid]'
+2020-01-11 19:06:51,234  INFO [main] TestBase:114 - Value of the : '[[ChromeDriver: chrome on WINDOWS (01993c87df7025ebfd191995a1a5242e)] -> name: password]' before any changes made
+2020-01-11 19:06:51,352  INFO [main] TestBase:124 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (01993c87df7025ebfd191995a1a5242e)] -> name: password]'
+2020-01-11 19:06:51,749  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (01993c87df7025ebfd191995a1a5242e)] -> name: btnLogin]'
+2020-01-11 19:06:54,598  INFO [main] TestBase:108 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (01993c87df7025ebfd191995a1a5242e)] -> name: btnLogin]'
+2020-01-11 19:12:42,925  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 19:12:42,930  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 19:12:42,930  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 19:12:57,174  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:13:00,775  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:13:00,934  INFO [main] TestBase:115 - Value of the : '[[ChromeDriver: chrome on WINDOWS (90ef27aabc38d4b0a87884fc462b674c)] -> name: uid]' before any changes made
+2020-01-11 19:13:01,225  INFO [main] TestBase:125 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (90ef27aabc38d4b0a87884fc462b674c)] -> name: uid]'
+2020-01-11 19:13:01,898  INFO [main] TestBase:115 - Value of the : '[[ChromeDriver: chrome on WINDOWS (90ef27aabc38d4b0a87884fc462b674c)] -> name: password]' before any changes made
+2020-01-11 19:13:02,039  INFO [main] TestBase:125 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (90ef27aabc38d4b0a87884fc462b674c)] -> name: password]'
+2020-01-11 19:13:06,096  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (90ef27aabc38d4b0a87884fc462b674c)] -> name: btnLogin]'
+2020-01-11 19:13:21,815  INFO [main] TestBase:109 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (90ef27aabc38d4b0a87884fc462b674c)] -> name: btnLogin]'
+2020-01-11 19:16:40,138  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 19:16:40,141  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 19:16:40,142  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 19:16:49,014  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:16:52,280  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:16:52,362  INFO [main] TestBase:115 - Value of the : '[[ChromeDriver: chrome on WINDOWS (302702ea54f98771000d6fe5320f8b1e)] -> name: uid]' before any changes made
+2020-01-11 19:16:52,521  INFO [main] TestBase:125 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (302702ea54f98771000d6fe5320f8b1e)] -> name: uid]'
+2020-01-11 19:16:52,958  INFO [main] TestBase:115 - Value of the : '[[ChromeDriver: chrome on WINDOWS (302702ea54f98771000d6fe5320f8b1e)] -> name: password]' before any changes made
+2020-01-11 19:16:53,089  INFO [main] TestBase:125 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (302702ea54f98771000d6fe5320f8b1e)] -> name: password]'
+2020-01-11 19:16:53,515  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (302702ea54f98771000d6fe5320f8b1e)] -> name: btnLogin]'
+2020-01-11 19:16:56,481  INFO [main] TestBase:109 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (302702ea54f98771000d6fe5320f8b1e)] -> name: btnLogin]'
+2020-01-11 19:18:17,844  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 19:18:17,847  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 19:18:17,848  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 19:18:24,212  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:18:28,073  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:18:28,127  INFO [main] TestBase:115 - Value of the : '[[ChromeDriver: chrome on WINDOWS (e76fdaa436f3c04709a93fce308e5be0)] -> name: uid]' before any changes made
+2020-01-11 19:18:28,285  INFO [main] TestBase:125 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (e76fdaa436f3c04709a93fce308e5be0)] -> name: uid]'
+2020-01-11 19:18:28,740  INFO [main] TestBase:115 - Value of the : '[[ChromeDriver: chrome on WINDOWS (e76fdaa436f3c04709a93fce308e5be0)] -> name: password]' before any changes made
+2020-01-11 19:18:28,856  INFO [main] TestBase:125 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (e76fdaa436f3c04709a93fce308e5be0)] -> name: password]'
+2020-01-11 19:18:29,281  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (e76fdaa436f3c04709a93fce308e5be0)] -> name: btnLogin]'
+2020-01-11 19:18:32,253  INFO [main] TestBase:109 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (e76fdaa436f3c04709a93fce308e5be0)] -> name: btnLogin]'
+2020-01-11 19:22:12,099  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 19:22:12,099  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 19:22:12,099  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 19:22:18,591  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:22:22,819  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:22:22,866  INFO [main] TestBase:119 - Value of the : '[[ChromeDriver: chrome on WINDOWS (0be1db439021fc72c5933f7b24d1ecfe)] -> name: uid]' before any changes made
+2020-01-11 19:22:23,042  INFO [main] TestBase:129 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (0be1db439021fc72c5933f7b24d1ecfe)] -> name: uid]'
+2020-01-11 19:22:23,924  INFO [main] TestBase:119 - Value of the : '[[ChromeDriver: chrome on WINDOWS (0be1db439021fc72c5933f7b24d1ecfe)] -> name: password]' before any changes made
+2020-01-11 19:22:24,017  INFO [main] TestBase:129 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (0be1db439021fc72c5933f7b24d1ecfe)] -> name: password]'
+2020-01-11 19:22:24,823  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (0be1db439021fc72c5933f7b24d1ecfe)] -> name: btnLogin]'
+2020-01-11 19:22:27,632  INFO [main] TestBase:109 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (0be1db439021fc72c5933f7b24d1ecfe)] -> name: btnLogin]'
+2020-01-11 19:26:15,507  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 19:26:15,523  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 19:26:15,523  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 19:26:21,891  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:26:27,443  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:26:27,511  INFO [main] TestBase:119 - Value of the : '[[ChromeDriver: chrome on WINDOWS (565ff9ccf1089dd0e35f41ce44c04849)] -> name: uid]' before any changes made
+2020-01-11 19:26:27,692  INFO [main] TestBase:129 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (565ff9ccf1089dd0e35f41ce44c04849)] -> name: uid]'
+2020-01-11 19:26:28,200  INFO [main] TestBase:119 - Value of the : '[[ChromeDriver: chrome on WINDOWS (565ff9ccf1089dd0e35f41ce44c04849)] -> name: password]' before any changes made
+2020-01-11 19:26:28,326  INFO [main] TestBase:129 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (565ff9ccf1089dd0e35f41ce44c04849)] -> name: password]'
+2020-01-11 19:26:28,957  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (565ff9ccf1089dd0e35f41ce44c04849)] -> name: btnLogin]'
+2020-01-11 19:26:31,884  INFO [main] TestBase:109 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (565ff9ccf1089dd0e35f41ce44c04849)] -> name: btnLogin]'
+2020-01-11 19:31:57,087  INFO [main] TestBase:41 - Host Name : Local Driven
+2020-01-11 19:31:57,092  INFO [main] TestBase:42 - Operating System : WINDOWS 7
+2020-01-11 19:31:57,092  INFO [main] TestBase:43 - Browser :CHROME
+2020-01-11 19:32:19,252  INFO [main] TestBase:44 - Navigating to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:32:40,897  INFO [main] TestBase:50 - Successfully Navigate to : 'http://demo.guru99.com/V4/'
+2020-01-11 19:32:41,318  INFO [main] TestBase:117 - Value of the : '[[ChromeDriver: chrome on WINDOWS (c268414b6c6f42c230acf98b6cbc7112)] -> name: uid]' before any changes made
+2020-01-11 19:32:47,873  INFO [main] TestBase:133 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (c268414b6c6f42c230acf98b6cbc7112)] -> name: uid]'
+2020-01-11 19:32:48,362  INFO [main] TestBase:117 - Value of the : '[[ChromeDriver: chrome on WINDOWS (c268414b6c6f42c230acf98b6cbc7112)] -> name: password]' before any changes made
+2020-01-11 19:32:55,910  INFO [main] TestBase:133 - Element value changed to: '[[ChromeDriver: chrome on WINDOWS (c268414b6c6f42c230acf98b6cbc7112)] -> name: password]'
+2020-01-11 19:32:56,339  INFO [main] TestBase:97 - Trying to click on : '[[ChromeDriver: chrome on WINDOWS (c268414b6c6f42c230acf98b6cbc7112)] -> name: btnLogin]'
+2020-01-11 19:33:05,771  INFO [main] TestBase:110 - Clicked on: '[[ChromeDriver: chrome on WINDOWS (c268414b6c6f42c230acf98b6cbc7112)] -> name: btnLogin]'

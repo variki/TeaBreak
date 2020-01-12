@@ -53,7 +53,7 @@ public class TestBase {
 		// Initialize Driver
 				DriverFactory instanceDriver = DriverFactory.getInstance();
 				idriver = instanceDriver.browserSetup(ConfigurationSetup.browser);
-				wait = new WebDriverWait(idriver, 60);
+				wait = new WebDriverWait(idriver, 120);
 				driver = new EventFiringWebDriver(idriver);
 				e = new WebEventListener();
 				driver.register(e);

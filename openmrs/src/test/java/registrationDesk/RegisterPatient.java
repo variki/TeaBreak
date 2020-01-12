@@ -17,14 +17,14 @@ public class RegisterPatient extends TestBase {
 		LoginPage.login(ConfigurationSetup.userName, ConfigurationSetup.password, "Registration Desk");
 				
 	}
-	
+	/*
 	@Test(description="Verify User is able to Search Patient")
 	public static void SearchPatient()
 	{
 		LoginPage.login(ConfigurationSetup.userName, ConfigurationSetup.password, "Registration Desk");
 			
 	
-	}
+	}*/
 	
 	
 }

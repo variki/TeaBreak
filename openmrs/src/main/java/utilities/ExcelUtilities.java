@@ -40,19 +40,21 @@ public class ExcelUtilities {
 	
 	public int getRow(String sheetName, String columnName,String searchValue)
 	{
+		System.out.println();
+		int row=-1;
 		int rowcount = getRowCount(sheetName);
-		for(int count = 1; count<=rowcount;count++)
+		for(int count = 0; count<rowcount;count++)
 		{
 			if(getCelldata(sheetName, columnName, count) == searchValue)
 			{
-				rowcount =  count;
+				row =  count;
 			}else {
-				rowcount = -1;
+				row = -1;
 				
 			}
 		}
 		
-		return rowcount;
+		return row;
 		
 	}
 

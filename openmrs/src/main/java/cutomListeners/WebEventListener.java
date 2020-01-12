@@ -96,25 +96,35 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		pHelper.highlightElement(element);
 		log.info("Trying to click on : '"+element.toString()+"'");
 		try {
-			pNode.log(Status.INFO,"Trying to click on : '"+element.toString()+"'",MediaEntityBuilder.createScreenCaptureFromPath(pTakeScreenshot.takesScreenshotAsFull()).build());
+			pNode.log(Status.INFO,"Trying to click on : '"+element.toString()+"'",MediaEntityBuilder.createScreenCaptureFromBase64String(pTakeScreenshot.ptakeScreenshotAsBase64()).build());
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		pHelper.unhighlightElement(element);
+		
 	}
 
 	public void afterClickOn(WebElement element, WebDriver driver) {
 		log.info("Clicked on: '" + element.toString()+"'");
 		pNode.log(Status.INFO,"Clicked on: '" + element.toString()+"'");
-		
+			
 	}
 
 	public void beforeChangeValueOf(WebElement element, WebDriver driver, CharSequence[] keysToSend) {
+		pHelper.highlightElement(element);
 		log.info("Value of the : '" + element.toString()
 		+ "' before any changes made");
-		pNode.log(Status.INFO,"Value of the : '" + element.toString()
-		+ "' before any changes made");
-		pHelper.highlightElement(element);
+		try {
+			pNode.log(Status.INFO,"Value of the : '" + element.toString()
+			+ "' before any changes made",MediaEntityBuilder.createScreenCaptureFromBase64String(pTakeScreenshot.ptakeScreenshotAsBase64()).build());
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		pHelper.unhighlightElement(element);
 		
 	}
 
@@ -123,11 +133,12 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		log.info("Element value changed to: '" + element.toString()+"'");
 		try {
 			
-			pNode.log(Status.INFO,"Element value changed to: '" + element.toString()+"'",MediaEntityBuilder.createScreenCaptureFromPath(pTakeScreenshot.takesScreenshotAsFull()).build());
+			pNode.log(Status.INFO,"Element value changed to: '" + element.toString()+"'",MediaEntityBuilder.createScreenCaptureFromBase64String(pTakeScreenshot.ptakeScreenshotAsBase64()).build());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		
 		
 		
