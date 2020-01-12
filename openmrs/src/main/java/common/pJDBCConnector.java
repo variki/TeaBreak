@@ -12,27 +12,44 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-public class pJDBCConnector {
+import com.aventstack.extentreports.markuputils.Markup;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+
+import testBase.TestBase;
+
+public class pJDBCConnector extends TestBase {
 	private static Connection con = null;
 	private static Statement state = null;
 	public static List<Hashtable<String, Object>> queryResult = new LinkedList<Hashtable<String, Object>>();
 
-	public static int executeDMLQuery(String readAllLinesFromTxt, Map<String, Object> parms) throws SQLException {
+	public static int executeDMLQuery(String readAllLinesFromTxt, Map<String, Object> parms) {
 		String txtString = readAllLinesFromTxt, fromString;
+		int affectedRow = 0;
 		for (Map.Entry<String, Object> entry : parms.entrySet()) {
 
 			fromString = "[" + entry.getKey() + "]";
 			txtString = txtString.replace(fromString, entry.getValue().toString());
 		}
 
-		getDBConnection();
-		int affectedRow = executeUpdate(readAllLinesFromTxt);
-		con.close();
+		try {
+			getDBConnection();
+			affectedRow = executeUpdate(txtString);
+			con.close();
+		} catch (SQLException e) {
+
+			log.info(e);
+			String code = "<b>" + "TEST CASE" +"<b>"+ currentTestName + "\n" + "Reason:" + e.getMessage();
+			Markup m = MarkupHelper.createCodeBlock(code);
+			pNode.fail(m);
+
+		}
 		return affectedRow;
 	}
 
 	public static void getDBConnection() throws SQLException {
+
 		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/guru99", "root", "readme@102");
+
 	}
 
 	public static ResultSet executeStatement(String statement) throws SQLException {
@@ -53,44 +70,45 @@ public class pJDBCConnector {
 	}
 
 	public static void main(String[] args) {
-		try {
+		executeDRLQuery("select idaavin from aavin where name ='[Name]';", new HashMap<String, Object>() {
+			{
+				put("Name", "Green");
+			}
+		});
 
-			executeDRLQuery("select idaavin from aavin where name ='[Name]';",
-					new HashMap<String, Object>() {
-						{
-							put("Name", "Green");
-						}
-					});
-
-			System.out.println(queryResult);
-			System.out.println(queryResult.get(0).get("idaavin"));
-
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
+		System.out.println(queryResult);
+		System.out.println(queryResult.get(0).get("idaavin"));
 
 	}
-	
+
 	/**
-	 * Execute the SQL query 
+	 * Execute Data retrival Languate Query
 	 * 
 	 * @param readAllLinesFromTxt
 	 * @param parms
-	 * @return List of Hashtable<String, Object>
-	 * @throws SQLException
 	 */
 
-	public static void executeDRLQuery(String readAllLinesFromTxt, Map<String, Object> parms)
-			throws SQLException {
+	public static void executeDRLQuery(String readAllLinesFromTxt, Map<String, Object> parms) {
 		String sqlString = readAllLinesFromTxt, fromString;
 		for (Map.Entry<String, Object> entry : parms.entrySet()) {
 
 			fromString = "[" + entry.getKey() + "]";
 			sqlString = sqlString.replace(fromString, entry.getValue().toString());
 		}
-		getDBConnection();
-		getHashtable(queryResult, executeStatement(sqlString));
-		con.close();
+
+		try {
+			getDBConnection();
+			getHashtable(queryResult, executeStatement(sqlString));
+			con.close();
+		} catch (SQLException e) {
+
+			log.info(e);
+			String code = "<b>" + "TEST CASE" + currentTestName + "\n" + "Reason:" + e.getMessage();
+			Markup m = MarkupHelper.createCodeBlock(code);
+			pNode.fail(m);
+
+		}
+
 	}
 
 	/**

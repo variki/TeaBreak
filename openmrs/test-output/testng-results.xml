@@ -1,36 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="71468" started-at="2020-01-11T19:31:57 IST" finished-at="2020-01-11T19:33:08 IST">
+  <suite name="Default suite" duration-ms="118262" started-at="2020-01-12T22:10:02 IST" finished-at="2020-01-12T22:12:01 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="71468" started-at="2020-01-11T19:31:57 IST" finished-at="2020-01-11T19:33:08 IST">
-      <class name="registrationDesk.RegisterPatient">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f]" name="beforeSuite" is-config="true" duration-ms="825" started-at="2020-01-11T19:31:56 IST" finished-at="2020-01-11T19:31:57 IST">
+    <test name="Default test" duration-ms="118262" started-at="2020-01-12T22:10:02 IST" finished-at="2020-01-12T22:12:01 IST">
+      <class name="customers.Customer">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:customers.Customer@27f723]" name="beforeSuite" is-config="true" duration-ms="719" started-at="2020-01-12T22:10:02 IST" finished-at="2020-01-12T22:10:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f]" name="beforeMethod" is-config="true" duration-ms="21927" started-at="2020-01-11T19:31:57 IST" finished-at="2020-01-11T19:32:19 IST">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:customers.Customer@27f723]" name="beforeMethod" is-config="true" duration-ms="7809" started-at="2020-01-12T22:10:02 IST" finished-at="2020-01-12T22:10:10 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=RegisterPatient.registerNewPatient()[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=Customer.newCustomer(java.util.Hashtable)[pri:0, instance:customers.Customer@27f723] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="registerNewPatient()[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f]" name="registerNewPatient" duration-ms="46610" started-at="2020-01-11T19:32:19 IST" description="Verify User is able to register New Patient" finished-at="2020-01-11T19:33:05 IST">
+        <test-method status="PASS" signature="newCustomer(java.util.Hashtable)[pri:0, instance:customers.Customer@27f723]" name="newCustomer" duration-ms="28548" started-at="2020-01-12T22:10:10 IST" description="Verify User is able to create new customer" data-provider="getData" finished-at="2020-01-12T22:10:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pin=123456, Date_Of_Birth=12/31/2020, Customer_Name=NoteBookApp, Mobile_Number=1234, Address=NoteBook Address, Password=notebook, City=city, Gender=male, E-Mail=notebookAeqd@test.com, State=State}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerNewPatient -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:registrationDesk.RegisterPatient@5bfbf16f]" name="afterMethod" is-config="true" duration-ms="2751" started-at="2020-01-11T19:33:05 IST" finished-at="2020-01-11T19:33:08 IST">
+        </test-method> <!-- newCustomer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:customers.Customer@27f723]" name="afterMethod" is-config="true" duration-ms="983" started-at="2020-01-12T22:10:39 IST" finished-at="2020-01-12T22:10:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- registrationDesk.RegisterPatient -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:customers.Customer@27f723]" name="beforeMethod" is-config="true" duration-ms="6324" started-at="2020-01-12T22:10:40 IST" finished-at="2020-01-12T22:10:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Customer.newCustomer(java.util.Hashtable)[pri:0, instance:customers.Customer@27f723] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="newCustomer(java.util.Hashtable)[pri:0, instance:customers.Customer@27f723]" name="newCustomer" duration-ms="29460" started-at="2020-01-12T22:10:46 IST" description="Verify User is able to create new customer" data-provider="getData" finished-at="2020-01-12T22:11:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pin=123456, Date_Of_Birth=12/31/2020, Customer_Name=NoteBookA, Mobile_Number=1234, Address=NoteBook Address, Password=notebook, City=city, Gender=male, E-Mail=notebookAeqe@test.com, State=State}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCustomer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:customers.Customer@27f723]" name="afterMethod" is-config="true" duration-ms="730" started-at="2020-01-12T22:11:16 IST" finished-at="2020-01-12T22:11:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:customers.Customer@27f723]" name="beforeMethod" is-config="true" duration-ms="6278" started-at="2020-01-12T22:11:16 IST" finished-at="2020-01-12T22:11:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Customer.newCustomer(java.util.Hashtable)[pri:0, instance:customers.Customer@27f723] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="newCustomer(java.util.Hashtable)[pri:0, instance:customers.Customer@27f723]" name="newCustomer" duration-ms="37216" started-at="2020-01-12T22:11:23 IST" description="Verify User is able to create new customer" data-provider="getData" finished-at="2020-01-12T22:12:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pin=123456, Date_Of_Birth=12/31/2020, Customer_Name=NoteBookAp, Mobile_Number=1234, Address=NoteBook Address, Password=notebook, City=city, Gender=male, E-Mail=notebookAeqg@test.com, State=State}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCustomer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:customers.Customer@27f723]" name="afterMethod" is-config="true" duration-ms="763" started-at="2020-01-12T22:12:00 IST" finished-at="2020-01-12T22:12:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- customers.Customer -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

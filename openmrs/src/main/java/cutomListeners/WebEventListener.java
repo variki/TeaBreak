@@ -133,7 +133,7 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 		log.info("Element value changed to: '" + element.toString()+"'");
 		try {
 			
-			pNode.log(Status.INFO,"Element value changed to: '" + element.toString()+"'",MediaEntityBuilder.createScreenCaptureFromBase64String(pTakeScreenshot.ptakeScreenshotAsBase64()).build());
+			pNode.log(Status.INFO,"Element value changed to: '" + keysToSend +"'",MediaEntityBuilder.createScreenCaptureFromBase64String(pTakeScreenshot.ptakeScreenshotAsBase64()).build());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -33,8 +33,6 @@ file
 */
 public static void getloginDetails()
 {
-	System.out.println();
-	System.out.println();
 	int rowNo = excel.getRow(CONFIG_SHEET_NAME, "Environment", env);
 	base_url = excel.getCelldata(CONFIG_SHEET_NAME, "Base URL", rowNo);
 	userName = excel.getCelldata(CONFIG_SHEET_NAME, "User Name", rowNo);

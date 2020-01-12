@@ -13,7 +13,7 @@ public class LoginPage extends TestBase {
 	private static By sessionLocation_CB = By.id("Registration Desk");
 	private static By login_Btn = By.name("btnLogin");
 	
-	public static void login(String userName,String pwd,String sessionLocation)
+	public static void login(String userName,String pwd)
 	{
 		driver.get(ConfigurationSetup.base_url);
 		pInteractElement.interactElementByType(userName_TB,userName);
@@ -23,4 +23,5 @@ public class LoginPage extends TestBase {
 		
 	}
 
-}
+} 
+

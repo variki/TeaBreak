@@ -1,0 +1,13 @@
+INSERT INTO customer(`Customer_Name`, `Gender`, `Date_Of_Birth`, `Address`, `City`,`State`, `Pin`, `Mobile_Number`, `E-Mail`, `Customer_Id`) 
+VALUES(
+'[Customer_Name]',
+'[Gender]',
+'[Date_Of_Birth]',
+'[Address]',
+'[City]',
+'[State]',
+'[Pin]',
+'[Mobile_Number]',
+'[E-Mail]',
+'[Customer_Id]'
+);

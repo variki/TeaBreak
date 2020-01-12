@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="registrationDesk.RegisterPatient">
+      <class name="customers.Customer">
         <methods>
-          <include name="registerNewPatient"/>
+          <include name="newCustomer" invocation-numbers="1"/>
           <include name="afterMethod"/>
           <include name="beforeSuite"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- registrationDesk.RegisterPatient -->
+      </class> <!-- customers.Customer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

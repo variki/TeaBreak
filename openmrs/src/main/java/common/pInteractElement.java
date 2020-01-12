@@ -27,4 +27,9 @@ public class pInteractElement extends TestBase {
 		
 	}
 
+	public static String getElementText(By successMsgTxt) {
+		return driver.findElement(successMsgTxt).getText();
+		
+	}
+
 }
